@@ -4,7 +4,7 @@ Flask_Cors==3.0.10
 numpy==1.21.5
 opencv_python_headless==4.5.4.60
 Pillow==9.4.0
-pymongo[srv]
+pymongo==4.3.3
 PyPDF2==3.0.1
 pypng==0.20220715.0
 pyqrcode==1.2.1
@@ -12,3 +12,4 @@ pyzbar==0.1.9
 requests==2.27.1
 rsa==4.9
 shortuuid==1.0.11
+~ymongo==4.0.2
