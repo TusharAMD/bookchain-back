@@ -121,7 +121,6 @@ pymongo==4.3.3
 PyMsgBox==1.0.9
 pyparsing==3.0.7
 pyperclip==1.8.2
-pypiwin32==223
 PyQt5==5.15.7
 PyQt5-Qt5==5.15.2
 PyQt5-sip==12.11.0
