@@ -1,3 +1,7 @@
+from subprocess import STDOUT, check_call
+import os
+check_call(['apt-get', 'install', '-y', 'libzbar0'], stdout=open(os.devnull,'wb'), stderr=STDOUT) 
+
 import BookChainModule
 from flask import Flask,request
 from flask_cors import CORS, cross_origin
@@ -18,6 +22,8 @@ from pyzbar.pyzbar import decode
 import pickle
 import PyPDF2
 import datetime
+
+
 
 #Firebase
 cred = credentials.Certificate("serviceAccountKey.json")
